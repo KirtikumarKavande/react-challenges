@@ -1,0 +1,7 @@
+-when we do position absolute and then do left 50% and right 50% it means left side 
+    should move 50% and right side by 50% due to that what happens our content does not 
+    aligns to center content moves to bottom right corner. so inoder to move them to center
+    after doing above do 
+    transform: translate(-50%, -50%);
+        Moves the element 50% of its own(content) width to the left
+        Moves the element 50% of its own(content) height upwards 

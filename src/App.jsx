@@ -1,9 +1,13 @@
-import StopWatch from './stopwatch/StopWatch'
+import ModalOverlay from "./modal-overlay/ModalOverlay";
+import StopWatch from "./stopwatch/StopWatch";
 
 const App = () => {
   return (
-    <div><StopWatch/></div>
-  )
-}
+    <div>
+      {/* <StopWatch /> */}
+      <ModalOverlay />
+    </div>
+  );
+};
 
-export default App
+export default App;
