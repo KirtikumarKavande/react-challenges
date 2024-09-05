@@ -1,0 +1,9 @@
+-autofocus field in input will work only at initial page reload
+-const inputRefs = [inputRef1, inputRef2, inputRef3, inputRef4];
+ we have added refs inside array so that we can access them through indices
+- remember e.preventDefault(): Stops the default action from happening (e.g., submitting a form, navigating a link).
+ e.stopPropagation(): Stops the event from propagating to parent elements in the DOM event chain (i.e., prevents parent handlers from being triggered).
+-The selectionStart property in HTML elements, particularly input and textarea elements, 
+ refers to the position of the start of the text selection or the cursor's position
+ within the input field. If no text is selected, it gives the index of where the 
+ text cursor (caret) is currently positioned. e.target.selectionStart

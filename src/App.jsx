@@ -1,5 +1,6 @@
 import Carousel from "./carousel/carousel";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
+import Otp from "./otp/Otp";
 import StopWatch from "./stopwatch/StopWatch";
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
     <div>
       {/* <StopWatch /> */}
       {/* <ModalOverlay /> */}
-      <Carousel/>
+      {/* <Carousel/> */}
+      <Otp/>
     </div>
   );
 };
