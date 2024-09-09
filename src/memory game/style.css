@@ -1,0 +1,21 @@
+.memory-game-card-container .card{
+    width: 200px; ;
+    height: 80px;
+    margin: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    border: red 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.memory-game-card-container{
+    display: flex;
+    grid-column: span 6;
+    flex-wrap: wrap;
+
+}
