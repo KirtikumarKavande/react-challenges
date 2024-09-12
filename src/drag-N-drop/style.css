@@ -1,0 +1,6 @@
+.todo-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    min-height: 100vh;
+}

@@ -1,0 +1,17 @@
+-width: calc(100% / 3);
+-<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+-we can make use of setAttribute and getAttribute  here I haven't used 
+-onDrag event attach to which is need to be dragged
+  onDrop will execute when perticular item got dropped
+  draggable set to true to make element draggable
+  onDragOver - browser's default behavior is to stop from dropping dragged item                                       s

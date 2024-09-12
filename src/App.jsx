@@ -1,4 +1,5 @@
 import Carousel from "./carousel/carousel";
+import DragDrop from "./drag-N-drop/DragDrop";
 import MemoryGame from "./memory game/MemoryGame";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
 import Otp from "./otp/Otp";
@@ -11,7 +12,8 @@ const App = () => {
       {/* <ModalOverlay /> */}
       {/* <Carousel/> */}
       {/* <Otp/> */}
-      <MemoryGame/>
+      {/* <MemoryGame/> */}
+      <DragDrop/>
     </div>
   );
 };
