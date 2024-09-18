@@ -1,0 +1,17 @@
+.transfer-List-container{
+    display: flex;
+}
+.left-container, .right-container{
+    width:500px;
+    border: 1px solid red;
+    min-height: 500px;
+}
+.middle-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin: 0 20px;
+    justify-content: center;
+}
+

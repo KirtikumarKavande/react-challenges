@@ -1,0 +1,5 @@
+question:-https://www.youtube.com/watch?v=qmQzrEQtvtU
+-if we have to use nested loop to filter out item then we can use some in second 
+    loop
+    const updatedListOne = listOne.filter(
+  (item1) => !tempList.some((item2) => item1.id === item2.id));

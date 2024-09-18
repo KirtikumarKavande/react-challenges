@@ -4,6 +4,7 @@ import MemoryGame from "./memory game/MemoryGame";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
 import Otp from "./otp/Otp";
 import StopWatch from "./stopwatch/StopWatch";
+import TransferList from "./TransferList/TransferList";
 import Folder from "./vs-code-folder-structure/Folder";
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
       {/* <Otp/> */}
       {/* <MemoryGame/> */}
       {/* <DragDrop/> */}
-      <Folder/>
+      {/* <Folder/> */}
+      <TransferList/>
     </div>
   );
 };
