@@ -4,6 +4,7 @@ import MemoryGame from "./memory game/MemoryGame";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
 import Otp from "./otp/Otp";
 import StopWatch from "./stopwatch/StopWatch";
+import Folder from "./vs-code-folder-structure/Folder";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Carousel/> */}
       {/* <Otp/> */}
       {/* <MemoryGame/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
+      <Folder/>
     </div>
   );
 };
