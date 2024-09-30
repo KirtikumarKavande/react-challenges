@@ -1,0 +1,10 @@
+-check how i added condition inside setState
+onClick={() =>
+              setCurrentCount((prev) => {
+                if (prev === 0) {
+                  return updatedData.length - 1;
+                } else {
+                  return prev - 1;
+                }
+              })
+            }
