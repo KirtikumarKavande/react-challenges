@@ -1,0 +1,12 @@
+-note down how beautifully they implemented recursion
+const addReply = (comments) => {
+    return comments.map(c => {
+      if (c.id === comment.id) {
+        return { ...c, children: [...c.children, newComment] };
+      }
+      if (c.children.length > 0) {
+        return { ...c, children: addReply(c.children) };
+      }
+      return c;
+    });
+  };
