@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./style.css";
 import { useState } from "react";
 const Carousel = () => {
-  const [updatedData, setUpdatedData] = useState();
+  const [updatedData, setUpdatedData] = useState("");
   const [currentCount, setCurrentCount] = useState(0);
   useEffect(() => {
     fetchData();
@@ -14,10 +14,10 @@ const Carousel = () => {
       });
     }, 3000);
 
-    return () => {
+    return () => {  
       clearInterval(id);
     };
-  }, [updatedData, currentCount]);
+  }, [updatedData.length,currentCount]);
   async function fetchData() {
     const data = await fetch("https://jsonplaceholder.typicode.com/photos");
     const res = await data?.json();
