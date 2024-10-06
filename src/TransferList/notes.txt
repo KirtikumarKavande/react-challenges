@@ -3,3 +3,4 @@ question:-https://www.youtube.com/watch?v=qmQzrEQtvtU
     loop
     const updatedListOne = listOne.filter(
   (item1) => !tempList.some((item2) => item1.id === item2.id));
+    -instead of using filter and some we can make use of set=new Set()

@@ -34,7 +34,7 @@ if(!isStartTimer){
 
     -check setTimer we literally wrote all logic and finally returned we took benefit of previous value
     - let { hour, min, sec } = prev;
-        we change the values also
+        we can change the values also
         hour=59
 
 

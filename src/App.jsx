@@ -14,12 +14,12 @@ const App = () => {
       {/* <StopWatch /> */}
       {/* <ModalOverlay /> */}
       {/* <Carousel/> */}
-      <Otp/>
+      {/* <Otp/> */}
       {/* <MemoryGame/> */}
       {/* <DragDrop/> */}
       {/* <Folder/> */}
       {/* <TransferList/> */}
-      {/* <NestedComment/> */}
+      <NestedComment/>
     </div>
   );
 };

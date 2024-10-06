@@ -24,7 +24,7 @@ const StopWatch = () => {
           } else if (sec === 0 && min > 0) {
             sec = 59;
             min = min - 1;
-          } else if (min === 0 && hour > 0) {
+          } else if (sec==0 && min === 0 && hour > 0) {
             sec = 59;
             min = 59;
             hour = hour - 1;
@@ -39,9 +39,9 @@ const StopWatch = () => {
       }, 1000);
       setTimerId(timerId);
     }
-if(!isStartTimer){
-  clearInterval(timerId)
-}
+    if (!isStartTimer) {
+      clearInterval(timerId);
+    }
     return () => {
       clearInterval(timerId);
     };
