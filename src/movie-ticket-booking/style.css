@@ -1,0 +1,44 @@
+.small-grid{
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(4,50px);
+}
+.small-grid > .small-grid-item{
+    height: 50px;
+    display: flex;
+    width: 50px;
+    background-color: blue;
+    justify-content: center;
+     align-items: center;
+
+}
+
+.medium-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5,50px);
+    }
+    .medium-grid > .medium-grid-item{
+        height: 50px;
+        display: flex;
+        width: 50px;
+        background-color: blue;
+        justify-content: center;
+         align-items: center;
+    
+    }
+
+    .large-grid{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(6,50px);
+        }
+        .large-grid > .large-grid-item{
+            height: 50px;
+            display: flex;
+            width: 50px;
+            background-color: blue;
+            justify-content: center;
+             align-items: center;
+        
+        }

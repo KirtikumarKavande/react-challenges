@@ -2,6 +2,7 @@ import Carousel from "./carousel/carousel";
 import DragDrop from "./drag-N-drop/DragDrop";
 import MemoryGame from "./memory game/MemoryGame";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
+import MovieTicketBooking from "./movie-ticket-booking/MovieTicketBooking";
 import NestedComment from "./nested-comment/NestedComment";
 import Otp from "./otp/Otp";
 import StopWatch from "./stopwatch/StopWatch";
@@ -19,7 +20,8 @@ const App = () => {
       {/* <DragDrop/> */}
       {/* <Folder/> */}
       {/* <TransferList/> */}
-      <NestedComment/>
+      {/* <NestedComment/> */}
+      <MovieTicketBooking/>
     </div>
   );
 };
