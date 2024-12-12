@@ -15,9 +15,9 @@ const App = () => {
       {/* <StopWatch /> */}
       {/* <ModalOverlay /> */}
       {/* <Carousel/> */}
-      {/* <Otp/> */}
+      <Otp/>
       {/* <MemoryGame/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
       {/* <Folder/> */}
       {/* <TransferList/> */}
       {/* <NestedComment/> */}

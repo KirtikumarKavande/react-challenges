@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./style.css"; // Importing the CSS file
+import "./style.css"; 
 
 const Otp = () => {
   const inputRefs = [useRef(), useRef(), useRef(), useRef()]; 
@@ -8,6 +8,8 @@ const Otp = () => {
     const value = e.target.value;
     if (/^\d$/.test(value) && currentIndex < 3) {
       inputRefs[currentIndex + 1].current.focus();
+    }else{
+      e.target.value = "";
     }
   };
 
