@@ -4,23 +4,17 @@ const DragDrop = () => {
   const [todo, setTodo] = useState([]);
   const [inputText, setInputText] = useState("");
   const [draggedTodo, setDraggedTodo] = useState(null);
-
+console.log("todo outside",todo)
   function generateRandomNumber() {
     return Math.floor(Math.random() * 10000);
   }
   function onDrop(currentStatus) {
     todo.forEach((item) => {
       if (item.id === draggedTodo.id) {
-        if (currentStatus === "DOING") {
-          item.status = "DOING";
-        } else if (currentStatus === "DONE") {
-          item.status = "DONE";
-        }else if (currentStatus === "TODO") {
-          item.status = "TODO";
-        }
+        item.status = currentStatus;
       }
-      setTodo([...todo]);
     });
+      setTodo([...todo]);
   }
 
   return (

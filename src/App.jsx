@@ -17,11 +17,11 @@ const App = () => {
       {/* <Carousel/> */}
       {/* <Otp/> */}
       {/* <MemoryGame/> */}
-      {/* <DragDrop/> */}
+      <DragDrop/>
       {/* <Folder/> */}
       {/* <TransferList/> */}
       {/* <NestedComment/> */}
-      <MovieTicketBooking/>
+      {/* <MovieTicketBooking/> */}
     </div>
   );
 };
