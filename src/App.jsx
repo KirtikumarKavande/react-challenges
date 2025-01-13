@@ -1,5 +1,6 @@
 import Carousel from "./carousel/carousel";
 import DragDrop from "./drag-N-drop/DragDrop";
+import Histogram from "./histogram/Histogram";
 import MemoryGame from "./memory game/MemoryGame";
 import ModalOverlay from "./modal-overlay/ModalOverlay";
 import MovieTicketBooking from "./movie-ticket-booking/MovieTicketBooking";
@@ -30,7 +31,8 @@ const App = () => {
       {/* <TransferList/> */}
       {/* <NestedComment/> */}
       {/* <MovieTicketBooking/> */}
-      <FetchReactQuery/>
+      <Histogram/>
+      {/* <FetchReactQuery/> */}
       </QueryClientProvider>
 
     </div>
