@@ -8,6 +8,7 @@ import NestedComment from "./nested-comment/NestedComment";
 import Otp from "./otp/Otp";
 import FetchReactQuery from "./react-query/FetchReactQuery";
 import StopWatch from "./stopwatch/StopWatch";
+import Todos from "./todo/Todos";
 import TransferList from "./TransferList/TransferList";
 import Folder from "./vs-code-folder-structure/Folder";
 import {
@@ -31,8 +32,12 @@ const App = () => {
       {/* <TransferList/> */}
       {/* <NestedComment/> */}
       {/* <MovieTicketBooking/> */}
-      <Histogram/>
+
+      {/* <Histogram/> */}
       {/* <FetchReactQuery/> */}
+
+    
+      <Todos/>
       </QueryClientProvider>
 
     </div>
